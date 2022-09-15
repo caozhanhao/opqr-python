@@ -70,7 +70,7 @@ def main():
         library_dirs=[os.path.join(cwd, "build")]
     )
     setup(name="opqr",
-          version="1.0.2",
+          version="1.0.3",
           long_description="A Simple QR encode Library.",
           description="A Simple QR encode Library.",
           author="caozhanhao",

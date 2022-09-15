@@ -2,7 +2,7 @@
 
 ## Introduction
 - A Simple QR encode Library.
-## Useage
+## Usage
 ```python
 import opqr
 qr = opqr.encode("opqr")
