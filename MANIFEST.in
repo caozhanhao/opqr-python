@@ -1,0 +1,4 @@
+include *.txt
+include opqr-python.cpp
+include MANIFEST.in
+recursive-include opqr/ *.hpp

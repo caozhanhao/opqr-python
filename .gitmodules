@@ -1,0 +1,3 @@
+[submodule "opqr"]
+	path = opqr
+	url = https://gitee.com/cmvy2020/opqr.git

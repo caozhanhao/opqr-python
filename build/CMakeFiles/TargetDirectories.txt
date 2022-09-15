@@ -1,0 +1,3 @@
+/home/caozhanhao/dev/opqr-python/build/CMakeFiles/opqr.dir
+/home/caozhanhao/dev/opqr-python/build/CMakeFiles/edit_cache.dir
+/home/caozhanhao/dev/opqr-python/build/CMakeFiles/rebuild_cache.dir

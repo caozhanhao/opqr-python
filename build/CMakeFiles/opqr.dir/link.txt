@@ -1,0 +1,2 @@
+/usr/bin/ar qc libopqr.a "CMakeFiles/opqr.dir/opqr-python.cpp.o"
+/usr/bin/ranlib libopqr.a

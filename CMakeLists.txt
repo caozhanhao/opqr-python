@@ -1,0 +1,8 @@
+cmake_minimum_required (VERSION 3.24)
+project (opqr-python)
+find_package(Python3 COMPONENTS Interpreter Development REQUIRED)
+add_compile_options(-fPIC)
+add_library(opqr opqr-python.cpp)
+target_include_directories(opqr PRIVATE ${Python3_INCLUDE_DIRS})
+target_compile_features(opqr PRIVATE cxx_std_17)
+target_link_libraries(opqr ${Python3_LIBRARIES})

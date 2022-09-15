@@ -1,0 +1,16 @@
+CMakeLists.txt
+LICENSE.txt
+MANIFEST.in
+README.rst
+opqr-python.cpp
+setup.py
+stub.cpp
+opqr.egg-info/PKG-INFO
+opqr.egg-info/SOURCES.txt
+opqr.egg-info/dependency_links.txt
+opqr.egg-info/top_level.txt
+opqr/include/opqr/operror.hpp
+opqr/include/opqr/oppic.hpp
+opqr/include/opqr/oppos.hpp
+opqr/include/opqr/opqr.hpp
+opqr/include/opqr/optables.hpp
