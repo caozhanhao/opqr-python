@@ -233,6 +233,12 @@ CMakeFiles/opqr.dir/opqr-python.cpp.o: \
  /usr/local/include/c++/12.0.1/backward/binders.h \
  /usr/local/include/c++/12.0.1/bits/range_access.h \
  /usr/local/include/c++/12.0.1/bits/vector.tcc \
+ /usr/local/include/c++/12.0.1/variant \
+ /usr/local/include/c++/12.0.1/bits/enable_special_members.h \
+ /usr/local/include/c++/12.0.1/bits/parse_numbers.h \
+ /usr/local/include/c++/12.0.1/ext/aligned_buffer.h \
+ /usr/local/include/c++/12.0.1/array \
+ /usr/local/include/c++/12.0.1/compare \
  /usr/local/include/c++/12.0.1/bitset \
  /usr/local/include/c++/12.0.1/string \
  /usr/local/include/c++/12.0.1/bits/stringfwd.h \
@@ -276,42 +282,41 @@ CMakeFiles/opqr.dir/opqr-python.cpp.o: \
  /usr/local/include/c++/12.0.1/bits/std_function.h \
  /usr/local/include/c++/12.0.1/typeinfo \
  /usr/local/include/c++/12.0.1/unordered_map \
- /usr/local/include/c++/12.0.1/ext/aligned_buffer.h \
  /usr/local/include/c++/12.0.1/bits/hashtable.h \
  /usr/local/include/c++/12.0.1/bits/hashtable_policy.h \
- /usr/local/include/c++/12.0.1/bits/enable_special_members.h \
  /usr/local/include/c++/12.0.1/bits/node_handle.h \
  /usr/local/include/c++/12.0.1/bits/unordered_map.h \
  /usr/local/include/c++/12.0.1/bits/erase_if.h \
- /usr/local/include/c++/12.0.1/array \
- /usr/local/include/c++/12.0.1/compare \
  /usr/local/include/c++/12.0.1/pstl/execution_defs.h \
  /home/caozhanhao/dev/opqr-python/opqr/include/opqr/optables.hpp \
- /home/caozhanhao/dev/opqr-python/opqr/include/opqr/oppos.hpp \
+ /home/caozhanhao/dev/opqr-python/opqr/include/opqr/oputils.hpp \
  /usr/local/include/c++/12.0.1/set \
  /usr/local/include/c++/12.0.1/bits/stl_tree.h \
  /usr/local/include/c++/12.0.1/bits/stl_set.h \
  /usr/local/include/c++/12.0.1/bits/stl_multiset.h \
- /home/caozhanhao/dev/opqr-python/opqr/include/opqr/oppic.hpp \
- /usr/local/include/c++/12.0.1/fstream \
- /usr/local/include/c++/12.0.1/istream /usr/local/include/c++/12.0.1/ios \
- /usr/local/include/c++/12.0.1/exception \
- /usr/local/include/c++/12.0.1/bits/exception_ptr.h \
- /usr/local/include/c++/12.0.1/bits/cxxabi_init_exception.h \
- /usr/local/include/c++/12.0.1/bits/nested_exception.h \
+ /usr/local/include/c++/12.0.1/iterator \
+ /usr/local/include/c++/12.0.1/bits/stream_iterator.h \
+ /usr/local/include/c++/12.0.1/bits/streambuf_iterator.h \
+ /usr/local/include/c++/12.0.1/streambuf \
  /usr/local/include/c++/12.0.1/bits/ios_base.h \
  /usr/local/include/c++/12.0.1/bits/locale_classes.h \
  /usr/local/include/c++/12.0.1/bits/locale_classes.tcc \
  /usr/local/include/c++/12.0.1/system_error \
  /usr/local/include/c++/12.0.1/stdexcept \
- /usr/local/include/c++/12.0.1/streambuf \
+ /usr/local/include/c++/12.0.1/exception \
+ /usr/local/include/c++/12.0.1/bits/exception_ptr.h \
+ /usr/local/include/c++/12.0.1/bits/cxxabi_init_exception.h \
+ /usr/local/include/c++/12.0.1/bits/nested_exception.h \
  /usr/local/include/c++/12.0.1/bits/streambuf.tcc \
+ /home/caozhanhao/dev/opqr-python/opqr/include/opqr/oppic.hpp \
+ /home/caozhanhao/dev/opqr-python/opqr/include/opqr/operror.hpp \
+ /usr/local/include/c++/12.0.1/fstream \
+ /usr/local/include/c++/12.0.1/istream /usr/local/include/c++/12.0.1/ios \
  /usr/local/include/c++/12.0.1/bits/basic_ios.h \
  /usr/local/include/c++/12.0.1/bits/locale_facets.h \
  /usr/local/include/c++/12.0.1/cwctype /usr/include/wctype.h \
  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
  /usr/local/include/c++/12.0.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
- /usr/local/include/c++/12.0.1/bits/streambuf_iterator.h \
  /usr/local/include/c++/12.0.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
  /usr/local/include/c++/12.0.1/bits/locale_facets.tcc \
  /usr/local/include/c++/12.0.1/bits/basic_ios.tcc \
@@ -321,5 +326,4 @@ CMakeFiles/opqr.dir/opqr-python.cpp.o: \
  /usr/local/include/c++/12.0.1/bits/codecvt.h \
  /usr/local/include/c++/12.0.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/local/include/c++/12.0.1/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/local/include/c++/12.0.1/bits/fstream.tcc \
- /home/caozhanhao/dev/opqr-python/opqr/include/opqr/operror.hpp
+ /usr/local/include/c++/12.0.1/bits/fstream.tcc
